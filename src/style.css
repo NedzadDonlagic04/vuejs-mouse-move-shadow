@@ -14,8 +14,8 @@ html {
 }
 
 #app {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    transform: translateY(-40%);
 }
