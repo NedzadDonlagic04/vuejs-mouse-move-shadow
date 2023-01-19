@@ -9,12 +9,14 @@ onMounted(() => {
         const { clientX, clientY } = e;
         const { innerWidth: width, innerHeight: height } = window;
 
-        console.log(clientX, clientY, width, height);
+        // console.log(clientX, clientY, width, height);
+        // ^ Used for testing
 
         const xWalk = Math.round((clientX / width * walk) - (walk / 2));
         const yWalk = Math.round((clientY / height * walk) - (walk / 2));
 
-        console.log(xWalk, yWalk);
+        // console.log(xWalk, yWalk);
+        // ^ Used for testing
 
         shadowValue.value = `${xWalk}px ${yWalk}px 5px`;
     });
