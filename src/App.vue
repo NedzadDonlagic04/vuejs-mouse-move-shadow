@@ -37,6 +37,7 @@ onMounted(() => {
         font-size: 3rem;
         text-align: center;
         user-select: none;
+        text-shadow: -10px -10px 5px;
     }
     .container {
         margin-top: 2rem;
